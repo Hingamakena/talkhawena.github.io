@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100vh;
+	overflow: hidden;
+	background-color: yellow;
+	font-family: sans-serif;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+header {
+	font-size: 75px;
+	height: 15vh;
+}
+
+#profile{
+	height: 70vh;
+}
+#at_bottom {
+	background-color: #A3B8B5;
+	height: 15vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.cam {
+	background-color: grey;
+	padding: 10px 20px;
+	color: white;
+	line-height: 20px;
+	font-size: 25px;
+}
